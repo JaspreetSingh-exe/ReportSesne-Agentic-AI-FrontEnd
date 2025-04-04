@@ -1,0 +1,59 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    android:layout_marginTop="5dp"
+    android:backgroundTint="@color/light_cream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_report_upload_icon"
+            android:contentDescription="Report Icon"
+            app:tint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:id="@+id/reportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Test Report"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/reportDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24 March 2025"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_right_arrow"
+            android:contentDescription="Arrow"
+            app:tint="@color/black" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

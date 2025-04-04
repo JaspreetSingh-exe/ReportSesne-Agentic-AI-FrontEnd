@@ -13,7 +13,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/topBar"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="52dp"
             android:minHeight="56dp"
             android:background="@color/light_cream"
             android:elevation="4dp"
